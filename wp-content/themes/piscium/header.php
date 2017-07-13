@@ -9,7 +9,9 @@
 
 <body <?php body_class(); ?>>
     <header id="mainHeader">
-        <div class="container">
-            
+        <div class="container-fluid">
+            <div class="col-xs-2">
+                <img src="<?= IMG_DIR_UPLOAD ?>/"
+            </div>
         </div>
     </header>
