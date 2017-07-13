@@ -1,11 +1,10 @@
 <?php
-/**
- * Piscium functions and definitions
- *
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
- *
- * @package Piscium
- */
+
+if( $_SERVER['HTTP_HOST'] == 'localhost' ){
+    define('IMG_DIR_UPLOAD', 'http://localhost/piscium/wp-content/uploads');
+}else{
+    define('IMG_DIR_UPLOAD', 'http://www.piscium.co/wp-content/uploads');
+}
 
 if ( ! function_exists( 'piscium_setup' ) ) :
 function piscium_setup() {
@@ -67,7 +66,7 @@ function piscium_scripts() {
 	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
 	wp_enqueue_style( 'piscium-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'bootstrap-script', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_enqueue_script( 'bootstrap-script', get_template_directory_uri() . '/assets/js/bootstrap.min.js' );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
