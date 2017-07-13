@@ -1,0 +1,43 @@
+
+.pw_radio_img_items {margin:5px;display: flex;width: 120px;float: left; border:2px solid transparent!important; cursor:pointer;}
+.pw_radio_img_checked { border:2px solid #1CADEB!important; }
+.slider_custom_css {
+	height:250px!important;	
+}
+
+.pl-field-cnt {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 10px;
+}
+.pl-field-cnt.pl-full-field{
+	width:100%;
+}
+.pl-field-cnt.pl-half-four-field{
+	width:24%;
+}
+.pl-field-cnt label{
+	float: left;
+    min-width: 90px;
+    padding-top: 5px;
+}
+.pl-field-cnt .wpb-select {
+	width:auto;
+}
+.pl-field-cnt .wp-picker-default{
+	width:100px;
+}
+.pw_preset_img {
+	margin-right:5px;display: inline-block!important;width:47%!important;float: none; cursor:pointer; vertical-align:top;border: 2px solid #ddd!important;
+    padding: 5px;
+    -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.pw_preset_img:hover {
+	border:2px solid #2B4FB0!important;
+}
+.pw_preset_img img{
+	width:100%;
+	height:auto;
+}

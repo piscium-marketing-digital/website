@@ -1,0 +1,1140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PW Pro Slider And Carousel For Visual Composer v1.5\n"
+"POT-Creation-Date: 2016-07-25 20:35+0330\n"
+"PO-Revision-Date: 2016-07-25 20:35+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: .\n"
+
+#: ../class/carousel_templates/adv_carousel_loop.php:550
+#: ../class/slider_templates/adv_slider_loop.php:638
+msgid "There are no items to display"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:114
+msgid "PW Pro Carousel"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:115
+msgid "Carousel Post Layout"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:120 ../class/pro_slider_layout.php:123
+msgid "PW Pro Post Layout"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:126 ../class/pro_slider_layout.php:129
+msgid "Heading Type"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:129 ../class/pro_slider_layout.php:132
+msgid "Manual"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:130 ../class/pro_slider_layout.php:133
+msgid "Simple"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:131 ../class/pro_slider_layout.php:134
+msgid "Advanced (Tabed)"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:138 ../class/pro_slider_layout.php:141
+msgid "Heading Based"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:141 ../class/pro_slider_layout.php:144
+msgid "Category"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:142 ../class/pro_slider_layout.php:145
+msgid "Tag"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:143 ../class/pro_slider_layout.php:146
+msgid "Taxonomy"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:153 ../class/pro_slider_layout.php:156
+msgid "Your Query"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:159 ../class/pro_slider_layout.php:162
+msgid "Create WordPress loop, to populate content from your site."
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:165 ../class/pro_slider_layout.php:168
+msgid "Show Heading"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:168 ../class/pro_carousel_layout.php:225
+#: ../class/pro_carousel_layout.php:239 ../class/pro_carousel_layout.php:300
+#: ../class/pro_carousel_layout.php:447 ../class/pro_carousel_layout.php:469
+#: ../class/pro_carousel_layout.php:531 ../class/pro_carousel_layout.php:617
+#: ../class/pro_carousel_layout.php:633 ../class/pro_carousel_layout.php:711
+#: ../class/pro_carousel_layout.php:780 ../class/pro_carousel_layout.php:795
+#: ../class/pro_carousel_layout.php:864 ../class/pro_carousel_layout.php:879
+#: ../class/pro_carousel_layout.php:894 ../class/pro_carousel_layout.php:924
+#: ../class/pro_slider_layout.php:171 ../class/pro_slider_layout.php:228
+#: ../class/pro_slider_layout.php:242 ../class/pro_slider_layout.php:303
+#: ../class/pro_slider_layout.php:446 ../class/pro_slider_layout.php:468
+#: ../class/pro_slider_layout.php:480 ../class/pro_slider_layout.php:562
+#: ../class/pro_slider_layout.php:578 ../class/pro_slider_layout.php:654
+#: ../class/pro_slider_layout.php:729 ../class/pro_slider_layout.php:746
+#: ../class/pro_slider_layout.php:814 ../class/pro_slider_layout.php:829
+#: ../class/pro_slider_layout.php:1028 ../class/pro_slider_layout.php:1043
+#: ../class/pro_slider_layout.php:1058 ../class/pro_slider_layout.php:1088
+msgid "Yes"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:178 ../class/pro_slider_layout.php:181
+msgid "Heading Layout"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:196 ../class/pro_slider_layout.php:199
+msgid "Header Main Color"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:199 ../class/pro_carousel_layout.php:287
+#: ../class/pro_carousel_layout.php:402 ../class/pro_slider_layout.php:202
+#: ../class/pro_slider_layout.php:290 ../class/pro_slider_layout.php:419
+msgid "Leave blank to ignore"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:208 ../class/pro_slider_layout.php:211
+msgid "Heading Text"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:222 ../class/pro_slider_layout.php:225
+msgid "Show Sub Heading"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:236 ../class/pro_slider_layout.php:239
+msgid "Show 'View All' Button"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:251 ../class/pro_slider_layout.php:254
+msgid "View All Button Text"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:265 ../class/pro_slider_layout.php:268
+msgid "Tab Heading Layout"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:284 ../class/pro_slider_layout.php:287
+msgid "Tab Active Color"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:297 ../class/pro_slider_layout.php:300
+msgid "RTL"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:312
+msgid "Carousel Type"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:315 ../class/pro_slider_layout.php:318
+msgid "OWL Slider"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:316 ../class/pro_slider_layout.php:319
+msgid "Swiper Slider"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:318
+msgid "Choose Carousel Type"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:324
+msgid "Carousel Layout"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:345
+msgid "Layout 3 Effects"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:348
+msgid "Move Overlay From Bottom To Top - With Move Image"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:349
+msgid "Move Overlay From Bottom To Top - Without Move Image"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:350
+msgid "Move Overlay From Top To Bottom - With Move Image"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:351
+msgid "Move Overlay From Top To Bottom - Without Move Image"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:353 ../class/pro_carousel_layout.php:370
+#: ../class/pro_slider_layout.php:406
+msgid "Choose Slider Type"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:363
+msgid "Layout 3 Content Align"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:366
+msgid "Top"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:367
+msgid "Bottom"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:368 ../class/pro_carousel_layout.php:560
+#: ../class/pro_slider_layout.php:507
+msgid "Center"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:380 ../class/pro_slider_layout.php:398
+msgid "Swipper Slider Effect"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:383 ../class/pro_slider_layout.php:401
+msgid "Slide"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:384 ../class/pro_slider_layout.php:402
+msgid "Fade"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:385 ../class/pro_slider_layout.php:403
+msgid "Cube"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:386 ../class/pro_slider_layout.php:404
+msgid "Flip"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:387
+msgid "Coverflow"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:389
+msgid ""
+"Choose Slider Type, Note: cube and flip effects just work when 1 item "
+"display on carousel"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:399 ../class/pro_slider_layout.php:416
+msgid "Overlay Background Color"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:408
+msgid "Carousel Image Size"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:411 ../class/pro_slider_layout.php:428
+msgid "WP Full Size"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:412 ../class/pro_slider_layout.php:429
+msgid "WP Medium Size"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:413 ../class/pro_slider_layout.php:430
+msgid "WP Thumbnail Size"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:414 ../class/pro_slider_layout.php:432
+msgid "Horizontal (768x506)"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:415 ../class/pro_slider_layout.php:433
+msgid "Vertical (470x634)"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:416 ../class/pro_slider_layout.php:434
+msgid "Rectangle (500x500)"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:424
+msgid "Image Hover Effect"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:427 ../class/pro_carousel_layout.php:601
+#: ../class/pro_carousel_layout.php:765 ../class/pro_slider_layout.php:547
+#: ../class/pro_slider_layout.php:799 ../class/pro_slider_layout.php:840
+#: ../class/pro_slider_layout.php:906
+msgid "None"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:428
+msgid "Zoom In"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:429
+msgid "Zoom In Long"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:430
+msgid "Zoom Out"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:431
+msgid "Grayscale"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:432
+msgid "Opacity"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:433
+msgid "Rotate left"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:434 ../class/pro_carousel_layout.php:435
+msgid "Rotate Right"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:444 ../class/pro_slider_layout.php:443
+msgid "Auto Play"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:456 ../class/pro_slider_layout.php:455
+msgid "Slide Speed"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:466 ../class/pro_slider_layout.php:465
+msgid "Loop"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:477
+msgid "Item Per View On Desktop"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:486
+msgid "Item Per View On Tablet"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:495
+msgid "Item Per View On Mobile"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:504
+msgid "Carousel Rows"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:518
+msgid "Item Margin"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:527 ../class/pro_slider_layout.php:476
+msgid "Show Navigation"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:530 ../class/pro_carousel_layout.php:632
+#: ../class/pro_carousel_layout.php:710 ../class/pro_slider_layout.php:479
+#: ../class/pro_slider_layout.php:577 ../class/pro_slider_layout.php:653
+#: ../class/pro_slider_layout.php:745
+msgid "No"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:544 ../class/pro_slider_layout.php:492
+msgid "Navigation Icon"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:546 ../class/pro_slider_layout.php:494
+msgid "Choose Navigation Icon Set"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:557 ../class/pro_slider_layout.php:504
+msgid "Navigation Position"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:561 ../class/pro_carousel_layout.php:725
+#: ../class/pro_slider_layout.php:508 ../class/pro_slider_layout.php:760
+msgid "Top Right"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:562 ../class/pro_carousel_layout.php:726
+#: ../class/pro_slider_layout.php:509 ../class/pro_slider_layout.php:761
+msgid "Top Left"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:563 ../class/pro_carousel_layout.php:727
+#: ../class/pro_slider_layout.php:510 ../class/pro_slider_layout.php:762
+msgid "Bottom Right"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:564 ../class/pro_carousel_layout.php:728
+#: ../class/pro_slider_layout.php:511 ../class/pro_slider_layout.php:763
+msgid "Bottom Left"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:577 ../class/pro_slider_layout.php:524
+msgid "Navigation Shape"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:580 ../class/pro_carousel_layout.php:744
+#: ../class/pro_slider_layout.php:527 ../class/pro_slider_layout.php:694
+#: ../class/pro_slider_layout.php:779
+msgid "Rectangle"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:581 ../class/pro_carousel_layout.php:745
+#: ../class/pro_slider_layout.php:528 ../class/pro_slider_layout.php:695
+#: ../class/pro_slider_layout.php:780
+msgid "Square"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:582 ../class/pro_carousel_layout.php:746
+#: ../class/pro_slider_layout.php:529 ../class/pro_slider_layout.php:696
+#: ../class/pro_slider_layout.php:781
+msgid "Circle"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:595 ../class/pro_slider_layout.php:542
+msgid "Navigation Fill"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:599 ../class/pro_carousel_layout.php:763
+#: ../class/pro_slider_layout.php:545
+msgid "Fill"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:600 ../class/pro_carousel_layout.php:764
+#: ../class/pro_slider_layout.php:546 ../class/pro_slider_layout.php:798
+msgid "Bordered"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:614 ../class/pro_slider_layout.php:559
+msgid "Show Navigation On Hover"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:629 ../class/pro_slider_layout.php:574
+msgid "Show Dots(Pagination)"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:644 ../class/pro_slider_layout.php:589
+msgid "Dots Position"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:647
+msgid "Under Carousel - Center"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:648
+msgid "Under Carousel - Left"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:649
+msgid "Under Carousel - Right"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:651
+msgid "Over Carousel - Center"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:652
+msgid "Over Carousel - Left"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:653
+msgid "Over Carousel - Right"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:666 ../class/pro_slider_layout.php:611
+msgid "Dot Type"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:669 ../class/pro_slider_layout.php:614
+msgid "Bullets"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:670 ../class/pro_slider_layout.php:615
+msgid "Progress"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:671 ../class/pro_slider_layout.php:616
+msgid "Fraction"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:683 ../class/pro_slider_layout.php:628
+msgid "Dot Layout"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:686 ../class/pro_slider_layout.php:631
+#: ../class/pro_slider_layout.php:712
+msgid "Layout 1"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:687 ../class/pro_slider_layout.php:632
+#: ../class/pro_slider_layout.php:713
+msgid "Layout 2"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:688 ../class/pro_slider_layout.php:633
+msgid "Layout 3"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:689 ../class/pro_slider_layout.php:634
+msgid "Layout 4"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:690 ../class/pro_slider_layout.php:635
+msgid "Layout 5"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:691 ../class/pro_slider_layout.php:636
+msgid "Layout 6"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:692 ../class/pro_slider_layout.php:637
+msgid "Layout 7"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:707 ../class/pro_slider_layout.php:742
+msgid "Show Play & Pause"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:722 ../class/pro_slider_layout.php:757
+msgid "Play & Pause Position"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:741 ../class/pro_slider_layout.php:776
+msgid "Play & Pause Shape"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:759 ../class/pro_slider_layout.php:794
+msgid "Play & Pause Fill"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:777 ../class/pro_slider_layout.php:811
+msgid "Show Play & Pause On Hover"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:792 ../class/pro_slider_layout.php:826
+msgid "Lazy Load"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:806 ../class/pro_slider_layout.php:970
+msgid "Show Title"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:809 ../class/pro_carousel_layout.php:838
+#: ../class/pro_carousel_layout.php:957 ../class/pro_carousel_layout.php:1013
+#: ../class/pro_slider_layout.php:973 ../class/pro_slider_layout.php:1002
+#: ../class/pro_slider_layout.php:1121 ../class/pro_slider_layout.php:1177
+msgid "Yes, of course"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:810 ../class/pro_carousel_layout.php:837
+#: ../class/pro_carousel_layout.php:956 ../class/pro_carousel_layout.php:1012
+#: ../class/pro_slider_layout.php:974 ../class/pro_slider_layout.php:1001
+#: ../class/pro_slider_layout.php:1120 ../class/pro_slider_layout.php:1176
+msgid "No, Thanks"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:819 ../class/pro_slider_layout.php:983
+msgid "Title Font"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:834 ../class/pro_slider_layout.php:998
+msgid "Show Metas"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:847 ../class/pro_slider_layout.php:1011
+msgid "Meta Font"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:861 ../class/pro_slider_layout.php:1025
+msgid "Show Author"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:876 ../class/pro_slider_layout.php:1040
+msgid "Show Comments"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:891 ../class/pro_slider_layout.php:1055
+msgid "Show category"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:907 ../class/pro_slider_layout.php:1071
+msgid "Category Number"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:921 ../class/pro_slider_layout.php:1085
+msgid "Show Date"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:937 ../class/pro_slider_layout.php:1101
+msgid "Date Format"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:953 ../class/pro_slider_layout.php:1117
+msgid "Show Excerpt"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:966 ../class/pro_slider_layout.php:1130
+msgid "Excerpt Font"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:979 ../class/pro_slider_layout.php:1143
+msgid "Excerpt Source"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:982 ../class/pro_slider_layout.php:1146
+msgid "Excerpt"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:983 ../class/pro_slider_layout.php:1147
+msgid "Full Content"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:995 ../class/pro_slider_layout.php:1159
+msgid "Excerpt Lenght"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:1009 ../class/pro_slider_layout.php:1173
+msgid "Show Button"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:1022 ../class/pro_slider_layout.php:1186
+msgid "Button Font"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:1036 ../class/pro_slider_layout.php:1200
+msgid "Button Text"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:1053 ../class/pro_slider_layout.php:1217
+msgid "Custom Class"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:1075 ../class/pro_slider_layout.php:1239
+msgid "Apply Preset"
+msgstr ""
+
+#: ../class/pro_carousel_layout.php:1175 ../class/pro_slider_layout.php:1335
+msgid "View All"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:117
+msgid "PW Pro Slider"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:118
+msgid "Slider Post Layout"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:315
+msgid "Slider Type"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:320
+msgid "Kenburn Slider"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:322
+msgid ""
+"Choose Slider Type.<br /> note: Kenburn Slider not work in advanced heading "
+"type"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:329
+msgid "Slider Mode"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:332
+msgid "Simple Slider (one slide)"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:333
+msgid "Multi Slider (multi item in on slide)"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:335
+msgid "Choose Slider Mode. Multi slider just work in OWL and swiper sliders"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:345
+msgid "Simple Slider Layout"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:365
+msgid "Multi Slider Pattern"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:385
+msgid "Slide Height"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:425
+msgid "Slider Image Size"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:431
+msgid "Horizontal 1 (800x380)"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:592 ../class/pro_slider_layout.php:672
+msgid "Under Slider - Center"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:593 ../class/pro_slider_layout.php:673
+msgid "Under Slider - Left"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:594 ../class/pro_slider_layout.php:674
+msgid "Under Slider - Right"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:596 ../class/pro_slider_layout.php:676
+msgid "Over Slider - Center"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:597 ../class/pro_slider_layout.php:677
+msgid "Over Slider - Left"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:598 ../class/pro_slider_layout.php:678
+msgid "Over Slider - Right"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:650
+msgid "Show Thumbnail"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:669
+msgid "Thumbnail Position"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:691
+msgid "Thumbnail Shape"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:709
+msgid "Thumbnail Layout"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:726
+msgid "Show Tooltip On Hover"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:797
+msgid "fill"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:837
+msgid "In Animation"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:842 ../class/pro_slider_layout.php:908
+msgid "bounce"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:843 ../class/pro_slider_layout.php:909
+msgid "flash"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:844 ../class/pro_slider_layout.php:910
+msgid "pulse"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:845 ../class/pro_slider_layout.php:911
+msgid "rubberBand"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:846 ../class/pro_slider_layout.php:912
+msgid "shake"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:847 ../class/pro_slider_layout.php:913
+msgid "swing"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:848 ../class/pro_slider_layout.php:914
+msgid "tada"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:849 ../class/pro_slider_layout.php:915
+msgid "wobble"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:850 ../class/pro_slider_layout.php:916
+msgid "jello"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:852
+msgid "bounceIn"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:853
+msgid "bounceInDown"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:854
+msgid "bounceInLeft"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:855
+msgid "bounceInRight"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:856
+msgid "bounceInUp"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:858 ../class/pro_slider_layout.php:924
+msgid "fade"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:859
+msgid "fadeInDown"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:860
+msgid "fadeInDownBig"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:861
+msgid "fadeInLeft"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:862
+msgid "fadeInLeftBig"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:863
+msgid "fadeInRight"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:864
+msgid "fadeInRightBig"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:865
+msgid "fadeInUp"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:866
+msgid "fadeInUpBig"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:868
+msgid "flipInX"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:869
+msgid "flipInY"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:870
+msgid "lightSpeedIn"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:872
+msgid "rotateIn"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:873
+msgid "rotateInDownLeft"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:874
+msgid "rotateInDownRight"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:875
+msgid "rotateInUpLeft"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:876
+msgid "rotateInUpRight"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:878
+msgid "slideInDown"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:879
+msgid "slideInLeft"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:880
+msgid "slideInRight"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:881
+msgid "slideInUp"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:883
+msgid "zoomIn"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:884
+msgid "zoomInDown"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:885
+msgid "zoomInLeft"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:886
+msgid "zoomInRight"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:887
+msgid "zoomInUp"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:889
+msgid "rollIn"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:903
+msgid "Out Animation"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:918
+msgid "bounceOut"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:919
+msgid "bounceOutDown"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:920
+msgid "bounceOutLeft"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:921
+msgid "bounceOutRight"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:922
+msgid "bounceOutUp"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:925
+msgid "fadeOutDown"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:926
+msgid "fadeOutDownBig"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:927
+msgid "fadeOutLeft"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:928
+msgid "fadeOutLeftBig"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:929
+msgid "fadeOutRight"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:930
+msgid "fadeOutRightBig"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:931
+msgid "fadeOutUp"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:932
+msgid "fadeOutUpBig"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:934
+msgid "flipOutX"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:935
+msgid "flipOutY"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:936
+msgid "lightSpeedOut"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:938
+msgid "rotateOut"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:939
+msgid "rotateOutDownLeft"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:940
+msgid "rotateOutDownRight"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:941
+msgid "rotateOutUpLeft"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:942
+msgid "rotateOutUpRight"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:944
+msgid "slideOutDown"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:945
+msgid "slideOutLeft"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:946
+msgid "slideOutRight"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:947
+msgid "slideOutUp"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:949
+msgid "zoomOut"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:950
+msgid "zoomOutDown"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:951
+msgid "zoomOutLeft"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:952
+msgid "zoomOutRight"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:953
+msgid "zoomOutUp"
+msgstr ""
+
+#: ../class/pro_slider_layout.php:955
+msgid "rollOut"
+msgstr ""
+
+#: ../main.php:114
+msgid "Carousel Layout 1"
+msgstr ""
+
+#: ../main.php:119
+msgid "Carousel Layout 2"
+msgstr ""
+
+#: ../main.php:124
+msgid "Carousel Layout 3"
+msgstr ""
+
+#: ../main.php:128
+msgid "Carousel Layout 4"
+msgstr ""
+
+#: ../main.php:132
+msgid "Carousel Layout 5"
+msgstr ""
+
+#: ../main.php:136
+msgid "Carousel Layout 6"
+msgstr ""
+
+#: ../main.php:140
+msgid "Carousel Layout 7"
+msgstr ""
+
+#: ../main.php:144
+msgid "Carousel Layout 8"
+msgstr ""
+
+#: ../main.php:148
+msgid "Carousel Layout 9"
+msgstr ""
+
+#: ../main.php:152
+msgid "Carousel Layout 10"
+msgstr ""
+
+#: ../main.php:155
+msgid "Carousel Layout 11"
+msgstr ""
+
+#: ../main.php:159
+msgid "Carousel Layout 12"
+msgstr ""
+
+#: ../main.php:168
+msgid "Simple Slider Layout 1"
+msgstr ""
+
+#: ../main.php:173
+msgid "Simple Slider Layout 2"
+msgstr ""
+
+#: ../main.php:178
+msgid "Simple Slider Layout 3"
+msgstr ""
+
+#: ../main.php:182
+msgid "Simple Slider Layout 4"
+msgstr ""
+
+#: ../main.php:186
+msgid "Simple Slider Layout 5"
+msgstr ""
+
+#: ../main.php:190
+msgid "Simple Slider Layout 6"
+msgstr ""
+
+#: ../main.php:194
+msgid "Simple Slider Layout 7"
+msgstr ""
+
+#: ../main.php:199
+msgid "Simple Slider Flip Effect"
+msgstr ""
+
+#: ../main.php:204
+msgid "Simple Slider Cube Effect"
+msgstr ""
+
+#: ../main.php:212
+msgid "Multi Slider Layout 1"
+msgstr ""
+
+#: ../main.php:217
+msgid "Multi Slider Layout 2"
+msgstr ""
+
+#: ../main.php:222
+msgid "Multi Slider Layout 3"
+msgstr ""
+
+#: ../main.php:226
+msgid "Multi Slider Layout 4"
+msgstr ""
+
+#: ../main.php:230
+msgid "Multi Slider Layout 5"
+msgstr ""
+
+#: ../main.php:234
+msgid "Multi Slider Layout 6"
+msgstr ""
+
+#: ../main.php:238
+msgid "Multi Slider Layout 7"
+msgstr ""

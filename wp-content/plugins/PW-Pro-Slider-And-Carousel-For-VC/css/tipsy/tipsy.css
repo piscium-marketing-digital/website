@@ -1,0 +1,25 @@
+.pl-tipsy { font-size: 13px; position: absolute; padding: 5px; z-index: 100000; }
+  .pl-tipsy-inner { background-color: #000; color: #FFF; max-width: 200px; padding: 15px 18px 14px 18px; text-align: center; }
+
+  /* Rounded corners */
+  .pl-tipsy-inner { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+  
+  /* Uncomment for shadow */
+  /*.pl-tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+  
+  .pl-tipsy-arrow { position: absolute; width: 0; height: 0; line-height: 0; border: 5px dashed #000; }
+  
+  /* Rules to colour arrows */
+  .pl-tipsy-arrow-n { border-bottom-color: #000; }
+  .pl-tipsy-arrow-s { border-top-color: #000; }
+  .pl-tipsy-arrow-e { border-left-color: #000; }
+  .pl-tipsy-arrow-w { border-right-color: #000; }
+  
+	.pl-tipsy-n .pl-tipsy-arrow { top: 0px; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
+    .pl-tipsy-nw .pl-tipsy-arrow { top: 0; left: 10px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent;}
+    .pl-tipsy-ne .pl-tipsy-arrow { top: 0; right: 10px; border-bottom-style: solid; border-top: none;  border-left-color: transparent; border-right-color: transparent;}
+  .pl-tipsy-s .pl-tipsy-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .pl-tipsy-sw .pl-tipsy-arrow { bottom: 0; left: 10px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .pl-tipsy-se .pl-tipsy-arrow { bottom: 0; right: 10px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }
+  .pl-tipsy-e .pl-tipsy-arrow { right: 0; top: 50%; margin-top: -5px; border-left-style: solid; border-right: none; border-top-color: transparent; border-bottom-color: transparent; }
+  .pl-tipsy-w .pl-tipsy-arrow { left: 0; top: 50%; margin-top: -5px; border-right-style: solid; border-left: none; border-top-color: transparent; border-bottom-color: transparent; }
