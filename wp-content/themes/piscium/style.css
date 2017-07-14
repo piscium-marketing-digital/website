@@ -128,4 +128,15 @@ embed,iframe,object{max-width:100%}.custom-logo-link{display:inline-block}.wp-ca
 /*
 *   PISCIUM STYLE
 */
+body{ font-family: 'Montserrat', sans-serif; }
 
+ul { padding: 0; margin: 0px; list-style: none; }
+
+header#mainHeader { background: url(http://localhost/piscium/wp-content/uploads/banner-2.jpg) no-repeat; background-size: 100%; background-position: center center; padding-top: 15px; }
+header#mainHeader ul { text-align: right; }
+header#mainHeader ul:after { content: ''; width: 1px; height: 10px; background: #fff; float: right; padding: 20px 0px; margin-top: 15px; }
+header#mainHeader ul li { display: inline-block; padding-right: 15px; margin-top: 25px; }
+header#mainHeader ul li a { color: #fff; text-decoration: none; font-size: 16px; font-weight: 600; }
+
+header#mainHeader i { font-size: 20px; color: #fff; margin-top: 24px; margin-right: 15px; }
+header#mainHeader hr { color: rgba(255,255,255,.8); }
