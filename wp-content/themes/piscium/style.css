@@ -128,7 +128,31 @@ embed,iframe,object{max-width:100%}.custom-logo-link{display:inline-block}.wp-ca
 /*
 *   PISCIUM STYLE
 */
-body{ font-family: 'Montserrat', sans-serif; }
+
+@font-face{
+    font-family: Georgia;
+    src: url(assets/fonts/georgia/georgia.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: Georgia;
+    src: url(assets/fonts/georgia/georgiab.ttf);
+    font-weight: 700;
+}
+@font-face{
+    font-family: Georgia;
+    src: url(assets/fonts/georgia/georgiai.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face{
+    font-family: Georgia;
+    src: url(assets/fonts/georgia/georgiaz.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+
+body{ font-family: 'Montserrat', sans-serif; font-size: 14px; color: #949494; }
 
 ul { padding: 0; margin: 0px; list-style: none; }
 
@@ -140,3 +164,49 @@ header#mainHeader ul li a { color: #fff; text-decoration: none; font-size: 16px;
 
 header#mainHeader i { font-size: 20px; color: #fff; margin-top: 24px; margin-right: 15px; }
 header#mainHeader hr { color: rgba(255,255,255,.8); }
+
+header#mainHeader #banner { margin-top: 10%; }
+header#mainHeader #banner h1 { color: #fff; font-size: 70px; }
+header#mainHeader #banner p { font-family: Georgia, serif; color: #fff; font-size: 22px; font-style: italic; }
+header#mainHeader #banner a { padding: 25px 0px; border: 2px solid #fff; color: #fff; text-decoration: none; font-size: 22px; font-family: Georgia, serif; font-style: italic; margin-top:0px; display: block; width: 350px; float: left; text-align: center; margin-right: 30px; }
+
+.home #sobre h2 { font-family: Georgia, serif; font-size: 16px; font-style: italic; color: #18b9b5; }
+.home h3 { font-size: 18px; font-weight: 800; color: #302f2f; margin-top: 0px; }
+
+.home #institucional h2{ color: #fff; font-size: 48px; font-weight: 700; padding: 150px 0px; }
+
+.home #porque-contratar { background-color: #f7f7f7; height: 546px; }
+.home #porque-contratar #container { width: 80%; margin: auto; }
+.home #porque-contratar #container h2 { font-size: 30px; color: #18b9b5; font-weight: bold; margin-top: 115px; }
+.home #porque-contratar #container table { margin-top: 30px; }
+.home #porque-contratar #container table tr td { padding-bottom: 20px; }
+.home #porque-contratar #container table tr td { font-size: 16px; color: #202020; font-family: Georgia, serif; font-style: italic; }
+
+.home #solucoes table td h2 { font-size: 18px; color: #242424; margin-top: 15px; font-weight: bold; margin-bottom: 25px; }
+.home #solucoes table td { font-size: 14px; color: #979797; }
+
+.home #portfolio .wpb_content_element { margin-bottom: 0px; }
+.home #portfolio #c2a-portfolio .vc_general.vc_cta3.vc_cta3-style-custom  { border: 0px; }
+.home #portfolio #c2a-portfolio p { color: #fff; margin-top: 14px; }
+.home #portfolio #c2a-portfolio button { color: #fff; text-transform: uppercase; background: rgba(0,0,0,0); border-radius: 0px; border: 1px solid #fff; }
+
+#blog h2 { font-size: 30px; color: #18b9b5; font-weight: 700; }
+#blog .img-post-thumb img{ visibility: visible; }
+#blog .img-post-thumb:before { content: ''; position: absolute; width: 100%; height: 460px; top: 0; background: rgba(0,0,0,0.8); }
+#blog .img-post-thumb .vc_gitem-zone-mini { z-index: 1; }
+#blog h3 { color: #fff; font-size: 38px; font-family: Georgia, serif; font-style: italic; z-index: 9999;  }
+#blog figure { z-index: 9999;  }
+
+#counters h2{ color: #18b9b5; font-weight: 400; font-size: 110px; }
+#counters h3{ font-size: 18px; margin-top: 35px; }
+#counters { color: #949494;  }
+
+footer { background: #0D1017; padding: 50px 0px; }
+footer p { margin-top: 50px; }
+footer ul li { display: inline-block; margin-right: 10px; }
+
+@media screen and (max-width: 1024px){
+    header#menu-fixo nav.menu-fixo ul li a { font-size: 16px; padding: 0px 8px; }
+    header#menu-fixo .with-line-left i { margin-left: 6px; }
+    footer .bg { background-size: auto 100%; }
+}

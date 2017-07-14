@@ -21,5 +21,10 @@ $(document).ready(function () {
             $('body.home header#menu-fixo').css('background', '#fff');
             $('body.home header#main-header').css('margin-bottom', '0px');
         }
+        
+        
     });
+    
+    
 });
+
