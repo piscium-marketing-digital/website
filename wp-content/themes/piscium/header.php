@@ -11,7 +11,7 @@
         <header id="mainHeader">
             <div class="container-fluid">
                 <div class="col-xs-2">
-                    <img src="<?= IMG_DIR_UPLOAD ?>/logo-piscium.png"/>
+                    <img src="<?= IMG_DIR_UPLOAD ?>/logo-piscium-branca.png"/>
                 </div>
                 <div class="col-xs-9">
                     <nav>
