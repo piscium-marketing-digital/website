@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_shadow_counter * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.uc_shadow_counter .uc_shadow_counter_col{ width:100%; text-align: center; clear:both; overflow:hidden; padding:50px 0;}
+
+.uc_shadow_counter .uc_shadow_counter_col .uc_counter_box{
+	background:#f4f6fa;
+	float:left;
+	width: 22%; 
+	margin: 0 1.5%;
+	position:relative;
+	box-shadow:0px 18px 18px 5px #b4b7b9;
+	padding:55px 0;
+	color:#22242a;
+}
+.uc_shadow_counter .uc_shadow_counter_col .uc_counter_box i{
+	display:block;
+	font-size:25px;
+	line-height:31px;
+	font-family: "FontAwesome";
+	margin-bottom:10px;
+}
+.uc_shadow_counter .uc_shadow_counter_col .uc_counter_box h2{
+	font-size:70px;
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	margin-bottom:12px;
+}
+.uc_shadow_counter .uc_shadow_counter_col .uc_counter_box span{
+	line-height: 31px; 
+	font-size:15px;
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	display:inline-block;
+	text-transform:uppercase;
+	letter-spacing: 1px;
+}
+
+@media screen and (max-width: 850px) {
+	.uc_shadow_counter .uc_shadow_counter_col .uc_counter_box h2{ font-size:58px;}
+}
+
+@media screen and (max-width: 639px) {
+	.uc_shadow_counter .uc_shadow_counter_col .uc_counter_box h2{ font-size:46px;}
+	.uc_shadow_counter .uc_shadow_counter_col .uc_counter_box span{ font-size:13px;}
+	.uc_shadow_counter .uc_shadow_counter_col .uc_counter_box i{ font-size:22px;}
+}
+@media screen and (max-width: 414px) {
+	.uc_shadow_counter .uc_shadow_counter_col .uc_counter_box h2{ font-size:30px;}
+	.uc_shadow_counter .uc_shadow_counter_col .uc_counter_box span{ font-size:12px;}
+	.uc_shadow_counter .uc_shadow_counter_col .uc_counter_box i{ font-size:20px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

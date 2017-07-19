@@ -1,0 +1,92 @@
+.uc_simple-flipbox *{margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;}
+   
+.uc_simple-flipbox{
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-ms-perspective: 1000;
+	perspective: 1000;
+	
+}
+.uc_simple-flipbox.hover .uc_flipper {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+}
+
+		
+/* END: Accommodating for IE */
+
+		
+.uc_flipper {
+	transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    
+	transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    
+	position: relative;
+}
+.uc_front, .uc_back {
+	backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.uc_front {
+	z-index: 2;
+	transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+}
+.uc_back {
+	transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+}
+	
+.uc_simple-flipbox, .uc_simple-flipbox .uc_front, .uc_simple-flipbox .uc_back {  width: 100%; height: 230px;}	
+
+/*=========================
+ front pane ======================= */
+.uc_simple-flipbox .uc_front { padding:0px; text-align:center; border-radius:7px;}
+/*=========================
+ front pane inner======================= */
+.uc_simple-flipbox .uc_front .uc_front_inner{width:100%; height:100%;}
+.uc_simple-flipbox .uc_front .uc_front_inner .uc_tag{ background:url(top-pic.png) no-repeat top center; width:100%; height:67px;  font-size:39px; color:#f0efef; font-weight:bold;font-family: 'Montserrat', sans-serif;padding: 10px 0 0 0;}
+.uc_simple-flipbox .uc_front .uc_front_inner .icon-box{ border-radius:50%; border:2px solid #fff; padding:3px; width:72px;  height:72px; margin:30px auto 17px;}
+.uc_simple-flipbox .uc_front .uc_front_inner .icon-box .white-bg{ width:100%; height:100%; background:#fff;border-radius:50%; position:relative;}
+.uc_simple-flipbox .uc_front .uc_front_inner .icon-box .white-bg span{ position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);}
+.uc_simple-flipbox .uc_front .uc_front_inner .icon-box .fa-envira{ color:#2dcd12; font-size:32px; text-align:center; vertical-align:middle; }
+.uc_simple-flipbox .uc_front .uc_front_inner p .fa{ background:#ffffff; padding:15px; border-radius:50%;}
+.uc_simple-flipbox .uc_front .uc_front_inner h2{font-family: 'Poppins', sans-serif; font-size:26px; color:#fff; font-weight:normal; font-weight:500; margin:0px; padding:0px;}
+.uc_simple-flipbox .uc_front .uc_front_inner .text-box{font-family: 'Open Sans', sans-serif; font-size:16px; color:#ffffff; margin-top:10px;}
+
+/*=========================
+ back pane ======================= */
+.uc_simple-flipbox .uc_back { padding:0px; text-align:center; border-radius:7px;}
+
+/*=========================
+ front pane inner======================= */
+.uc_simple-flipbox .uc_back .uc_front_inner{width:100%; height:100%;}
+.uc_simple-flipbox .uc_back .uc_front_inner .uc_tag{ background:url(top-pic.png) no-repeat top center; width:100%; height:67px;  font-size:39px; color:#f0efef; font-weight:bold;font-family: 'Montserrat', sans-serif;padding: 10px 0 0 0;}
+
+.uc_simple-flipbox .uc_back .uc_front_inner h2{font-family: 'Poppins', sans-serif; font-size:26px; color:#000; font-weight:normal; font-weight:500; margin:25px 0px 15px; display:inline-block;}
+.uc_simple-flipbox .uc_back .uc_front_inner p{font-family: 'Open Sans', sans-serif; font-size:16px; color:#212121; margin:0 9%;}
+.uc_simple-flipbox .uc_back .uc_front_inner a{ width:80%;font-family: 'Poppins', sans-serif; font-size:18px;background:#ffffff; padding:5px 0; text-align:center; display:inline-block; border-radius:30px; text-decoration:none; margin:28px 0 0;}
+.uc_simple-flipbox .uc_back .uc_front_inner a:hover{ background:#2dcd12; color:#ffffff !important;}

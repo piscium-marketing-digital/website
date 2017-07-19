@@ -3,7 +3,7 @@
 </main>
 <footer>
     <div class="container-fluid">
-        
+
         <div class="col-xs-12 text-center">
             <a href="<?php bloginfo('url') ?>">
                 <img src="<?= IMG_DIR_UPLOAD ?>/logo-negativa.jpg"/>
@@ -15,7 +15,7 @@
                 Horário de Atendimento:<br/>
                 Segunda à Sexta 09:00 - 12:00 / 14:00 - 17:00<br/>
             </p>
-            
+
             <ul>
                 <li><a href="#"><img src="<?= IMG_DIR_UPLOAD ?>/icone-facebook.jpg"/></a></li>
                 <li><a href="#"><img src="<?= IMG_DIR_UPLOAD ?>/icone-behance.jpg"/></a></li>

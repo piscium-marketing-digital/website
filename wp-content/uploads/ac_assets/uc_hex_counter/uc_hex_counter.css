@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uc_hex_counter * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.uc_hex_counter .uc_hex_counter_col{ width:100%; text-align: center; clear:both; overflow:hidden;}
+
+
+.uc_hex_counter .uc_hex_counter_col .uc_counter_box{
+	float:left;
+	width: 23%; 
+	margin: 0 1%;
+	position:relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons{
+    position: relative;
+	width: 180px; 
+	height: 100px;
+	background: #26d3d2;
+	margin: 50px 0;
+	display:inline-block;
+	font-size:55px;
+	line-height:70px;
+}
+.uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons:before,
+.uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+	left:0;
+}
+
+.uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons:before {
+	bottom: 100%;
+	border-bottom: 50px solid #26d3d2;
+}
+
+.uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons:after {
+	top: 100%;
+	width: 0;
+	border-top: 50px solid #26d3d2;
+}
+
+
+
+
+
+.uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons i{
+	display:block;
+	font-size:50px;
+	line-height:100px;
+	font-family: "FontAwesome";
+    color:#fff !important;
+}
+.uc_hex_counter .uc_hex_counter_col .uc_counter_box h2{
+	font-size:25px;
+	font-weight:500;
+    color:#7f8187;
+	margin-top:23px;
+}
+.uc_hex_counter .uc_hex_counter_col .uc_counter_box span{
+	font-size:25px;
+	font-weight:500;
+	display:inline-block;
+	text-transform:uppercase;
+    color:#7f8187;
+    margin-bottom:33px;
+}
+@media screen and (max-width: 767px) {
+	.uc_hex_counter .uc_hex_counter_col .uc_counter_box h2, .uc_hex_counter .uc_hex_counter_col .uc_counter_box span{ font-size:22px;}
+	.uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons{ width:140px; height:60px;}
+	.uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons::before, .uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons::after {
+		border-left: 70px solid transparent;
+		border-right: 70px solid transparent;
+	}
+	.uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons::before { border-bottom: 45px solid #26d3d2;}
+	.uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons::after { border-top: 45px solid #26d3d2;}
+	.uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons i{ line-height:normal;}
+}
+
+@media screen and (max-width: 610px) {
+	.uc_hex_counter .uc_hex_counter_col .uc_counter_box h2, .uc_hex_counter .uc_hex_counter_col .uc_counter_box span{ font-size:15px; margin:0;}
+	.uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons{ width:90px; height:50px;}
+	.uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons::before, .uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons::after {
+		border-left: 45px solid transparent;
+		border-right: 45px solid transparent;
+	}
+	.uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons::before { border-bottom: 25px solid #26d3d2;}
+	.uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons::after { border-top: 25px solid #26d3d2;}
+	.uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons{ margin:40px 0;}
+	.uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons i{ line-height:52px; font-size:32px;}
+}
+@media screen and (max-width: 479px) {
+    .uc_hex_counter .uc_hex_counter_col .uc_counter_box h2, .uc_hex_counter .uc_hex_counter_col .uc_counter_box span{ font-size:13px; margin:0;}
+    .uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons{ width:70px; height:40px;}
+    .uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons::before, .uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons::after {
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+    }
+    .uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons::before { border-bottom: 18px solid #26d3d2 ;}
+    .uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons::after { border-top: 18px solid #26d3d2 ;}
+    .uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons{ margin:25px 0;}
+    .uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons i{ line-height:42px; font-size:24px;}
+}
+@media screen and (max-width: 380px) {
+    .uc_hex_counter .uc_hex_counter_col .uc_counter_box h2, .uc_hex_counter .uc_hex_counter_col .uc_counter_box span{ font-size:11px; margin:0;}
+    .uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons{ width:56px; height:26px;}
+    .uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons::before, .uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons::after {
+        border-left: 28px solid transparent;
+        border-right: 28px solid transparent;
+    }
+    .uc_hex_counter .uc_hex_counter_col .uc_counter_box .uc_hex_icons i { line-height: normal; font-size: 22px;}
+}
+
+
+
+
+
+

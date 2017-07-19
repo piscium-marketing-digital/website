@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_quote_widget{ overflow: hidden;font-family: 'Roboto Slab', serif;}
+.uc_quote_widget .uc_quote_widget_containt .uc_quote_pic{ width:100%;float:left; position:relative;}
+.uc_quote_widget .uc_quote_widget_containt .uc_quote_pic img{ width:100%; display:block;}
+.uc_quote_widget .uc_quote_widget_containt .uc_quote_pic p{ font-size:16px; color:#9c9e9f; font-style:italic; position:absolute; left:0px; bottom:22px; padding:0 20%; color:#ffffff;}
+.uc_quote_widget .uc_quote_widget_containt .uc_quote_pic p span{ display:block; font-style:italic; margin-top:15px;font-size:12px;}
+.uc_quote_widget .uc_quote_widget_containt .uc_quote_pic p:before{ position:absolute; content:""; background:url(cotation.png) no-repeat left top; left:16%; top: -20px; height:15px; width:15px;}
+
+

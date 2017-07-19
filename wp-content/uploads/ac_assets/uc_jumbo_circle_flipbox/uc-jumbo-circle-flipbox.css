@@ -1,0 +1,113 @@
+.uc-jumbo-circle-flipbox *{margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;}
+   
+.uc-jumbo-circle-flipbox {
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-ms-perspective: 1000;
+	perspective: 1000;
+}
+.uc-jumbo-circle-flipbox.hover .uc_flipper {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+}
+		
+		/* END: Accommodating for IE */
+
+		
+.uc_flipper {
+	transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    
+	transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    
+	position: relative;
+}
+.uc_front, .uc_back {
+	backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.uc_front {
+	z-index: 2;
+	transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+}
+.uc_back {
+	transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+}	
+.uc-jumbo-circle-flipbox, .uc-jumbo-circle-flipbox .uc_front, .uc-jumbo-circle-flipbox .uc_back {  width: 100%; height: 370px;text-align:center}	
+
+
+
+
+
+/*=========================
+ front pane inner======================= */
+	
+
+/*=========================
+ back pane ======================= */
+.uc-jumbo-circle-flipbox .uc_back {	 border:1px solid transparent; text-align:center; 
+-webkit-box-shadow: 0px 2px 2px 0px rgba(209,207,209,1);
+-moz-box-shadow: 0px 2px 2px 0px rgba(209,207,209,1);
+box-shadow: 0px 2px 2px 0px rgba(209,207,209,1);}
+
+/*=========================
+ front pane inner======================= */
+ 
+.uc-jumbo-circle-flipbox .uc_flipper .uc_flipper_inner .uc_front_circle{ background-color:#ffbb00; width:180px; height:180px; border-radius:50%; margin:47px auto 20px;}
+.uc-jumbo-circle-flipbox .uc_flipper .uc_flipper_inner .uc_front_circle i{ color:#31b041; font-size:60px; line-height:180px;}
+.uc-jumbo-circle-flipbox .uc_flipper .uc_flipper_inner h3{ font-family: 'Pacifico', cursive; font-size:26px; color:#ffbb00; font-weight:400; margin-top:20px;}
+
+/*=========================
+ Back pane inner======================= */
+ 
+.uc-jumbo-circle-flipbox .uc_back .uc_flipper_inner h2
+{
+	font-family: 'Pacifico', cursive; 
+	font-size:25px;
+	font-weight:400;
+	color:#ffffff;
+	margin:0 0 30px 0;
+	padding:0px;
+}
+
+.uc-jumbo-circle-flipbox .uc_back .uc_flipper_inner 
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	line-height:28px;
+	color:#ffffff;
+	padding:0 26px;
+}
+
+
+.uc-jumbo-circle-flipbox .uc_back .uc_flipper_inner .top-icon
+{
+	color:#ffbb00;
+	font-size:50px;
+	margin-top:36px;
+	margin-bottom:20px;
+}

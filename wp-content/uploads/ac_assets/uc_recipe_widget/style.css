@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_recipe_widget{ border-radius:3px; overflow: hidden;font-family: 'Lato', sans-serif; background:#ffffff;}
+.uc_recipe_widget img{ width:100%; display:block;}
+
+.uc_recipe_widget .uc_recipe_widget_containt{ padding:15px 15px; background:#f8f8f9; position:relative;}
+.uc_recipe_widget .uc_recipe_widget_containt h2{ font-weight:normal;font-size: 20px; color:#727272; margin:0px;}
+.uc_recipe_widget .uc_recipe_widget_containt p{ font-weight:normal;font-size: 14px; color:#727272; margin:15px 0 0;}	
+
+.clear {clear: both;overflow: hidden;}
+
+.uc_recipe_widget .uc_recipe{ background:#f8f8f9; border-top:1px solid #d7d7db; padding:0px;}
+.uc_recipe_widget .uc_recipe a img{ width: auto; vertical-align: middle; margin-right:10px; display:inline;}
+.uc_recipe_widget .uc_recipe a{ margin:0px;font-family: 'Lato', sans-serif; font-size: 12px; font-weight:bold;color:#a9a6a6;text-decoration:none;width:100%; float:left; display:block;  padding: 15px 0; height:20px;text-align:center;}
+
+
+
+

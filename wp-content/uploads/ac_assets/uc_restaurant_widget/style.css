@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_restaurant_widget{ border-radius:10px; overflow: hidden;font-family: 'Lato', sans-serif; background:#ffffff; overflow:hidden;}
+.uc_restaurant_widget img{ width:100%; display:block;}
+
+.uc_restaurant_widget .uc_restaurant_widget_containt{ padding:15px 25px; background:#f3f3f3; position:relative;}
+.uc_restaurant_widget .uc_restaurant_widget_containt h2{ font-weight:normal;font-size: 24px; color:#4c4a4a; margin:0px;}
+.uc_restaurant_widget .uc_restaurant_widget_containt p{ margin:7px 0px; color:#a9a6a6;font-family: 'Roboto Slab', serif; font-style:italic;font-size: 12px; font-weight:bold;}
+.uc_restaurant_widget .uc_restaurant_widget_containt p .fa-map-marker{ font-size:16px; color:#cccccc;}
+.uc_restaurant_widget .uc_restaurant_widget_containt .arrow{ position:absolute; right:0px; top:50%; transform:translateY(-50%);-webkit-border-top-left-radius: 30px;
+-webkit-border-bottom-left-radius: 30px;-moz-border-radius-topleft: 30px;-moz-border-radius-bottomleft: 30px;border-top-left-radius: 30px;border-bottom-left-radius: 30px; border-left:7px solid #ffffff; border-top:7px solid #ffffff; border-bottom:7px solid #ffffff; background:#ffa700;}
+.uc_restaurant_widget .uc_restaurant_widget_containt .arrow .fa-angle-right{color:#ffffff; font-size: 25px; font-weight: bold; padding: 5px 9px 5px 17px;}
+
+.uc_restaurant_widget .restaurant_last{ background:#f4e4c8; border-top:1px solid #c6beb3; padding:15px 15px 15px 25px;
+background: #f4f3eb;
+background: -moz-linear-gradient(top, #f4f3eb 18%, #f9f5e3 96%);
+background: -webkit-linear-gradient(top, #f4f3eb 18%,#f9f5e3 96%);
+background: linear-gradient(to bottom, #f4f3eb 18%,#f9f5e3 96%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f3eb', endColorstr='#f9f5e3',GradientType=0 );}
+.uc_restaurant_widget .restaurant_last p{ margin:0px;font-family: 'Roboto Slab', serif; font-style:italic;font-size: 12px; font-weight:bold; color:#a9a6a6;}
+.uc_restaurant_widget .restaurant_last p span{color:#feb304;  float: right; font-style:normal;font-size: 14px;}
+
+

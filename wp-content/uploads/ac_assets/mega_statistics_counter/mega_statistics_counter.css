@@ -1,0 +1,92 @@
+
+.uc_mega_statistics_counter * {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+	font-family: 'Open Sans', sans-serif;	
+	font-size:16px;
+	color:#fff;
+    line-height: normal;
+	}
+	
+.uc_mega_statistics_counter .uc_container {
+    width: 1170px;
+	margin:0 auto;
+	max-width:100%;
+}	
+	
+
+.uc_mega_statistics_counter .uc_parallax-content{
+	background-size:cover;
+
+	}	
+	
+.uc_mega_statistics_counter .uc_image_text {
+    text-align: center;
+}
+
+.uc_mega_statistics_counter .uc_countdown_col {
+}
+	
+.uc_mega_statistics_counter .uc_countdown_block{
+	width:33.33%;
+	max-width:100%;
+	float: left;
+}
+
+
+
+.uc_mega_statistics_counter .uc_countdown_block a i{
+    font-size: 48px;
+    margin-bottom: 46px;
+	color:#fff;
+    font-family: 'FontAwesome';
+}
+
+.uc_mega_statistics_counter .uc_countdown_block h2{
+	font-size:24px;	
+}
+
+.uc-counter-number{
+    font-size: 120px;
+    font-weight: 700;
+}
+
+
+
+
+@media only screen and (min-width: 961px) and (max-width: 1200px) {
+    
+    }
+	
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+	.uc_mega_statistics_counter .uc_countdown_block h3 { font-size: 76px;}
+	.uc_mega_statistics_counter .uc_countdown_block h2 { font-size: 20px;}
+	.uc_mega_statistics_counter .uc_countdown_col { margin-top: 50px;}
+}
+    
+@media (max-width:767px) {
+    .uc_mega_statistics_counter .uc_countdown_block {float: none;width: 100%;}
+	.uc_mega_statistics_counter .uc_countdown_col { margin-top: 30px;}
+	
+	.uc_mega_statistics_counter .uc_image_text {font-size: 14px;}
+	.uc_mega_statistics_counter .uc_countdown_block {  margin-bottom: 28px;}
+	.uc_mega_statistics_counter .uc_image_text h3 {font-size: 26px; font-weight: 700;}
+	.uc_mega_statistics_counter .uc_countdown_block h2 {font-size: 22px;}	
+	.uc_mega_statistics_counter .uc_countdown_block h3 {font-size: 49px; font-weight: 700;}
+    }
+    
+@media (max-width:420px) {
+	.uc_mega_statistics_counter .uc_image_text {font-size: 14px;}
+    .uc_mega_statistics_counter .uc_countdown_block {float: none;width: 100%;}
+	.uc_mega_statistics_counter .uc_countdown_col { margin-top: 30px;}
+	
+	.uc_mega_statistics_counter .uc_countdown_block {  margin-bottom: 28px;}
+	.uc_mega_statistics_counter .uc_image_text h3 {font-size: 26px; font-weight: 700;}
+	.uc_mega_statistics_counter .uc_countdown_block h2 {font-size: 22px;}	
+	.uc_mega_statistics_counter .uc_countdown_block h3 {font-size: 49px; font-weight: 700;}
+	
+    }

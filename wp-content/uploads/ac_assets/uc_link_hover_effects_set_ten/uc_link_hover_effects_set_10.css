@@ -1,0 +1,78 @@
+.uc_link_hover_effects_set_10 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   text-align:center;
+}
+
+.uc_link_hover_effects_set_10 nav a {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	display: inline-block;
+	margin: 0px;
+	outline: none;
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+.uc_link_hover_effects_set_10 nav a:hover,
+.uc_link_hover_effects_set_10 nav a:focus {
+	outline: none;
+}
+
+
+/* Effect 10: reveal, push out */
+.uc_link_hover_cl-effect-10  {
+	position: relative;
+	z-index: 1;
+}
+
+.uc_link_hover_cl-effect-10 a {
+	overflow: hidden;
+	margin: 0 15px;
+}
+
+.uc_link_hover_cl-effect-10 a span {
+	display: block;
+	padding: 10px 20px;
+	background: #0f7c67;
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.uc_link_hover_cl-effect-10 a::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	padding: 10px 20px;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	color: #0f7c67;
+	content: attr(data-hover);
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transform: translateX(-25%);
+}
+
+.uc_link_hover_cl-effect-10 a:hover span,
+.uc_link_hover_cl-effect-10 a:focus span {
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	transform: translateX(100%);
+}
+
+.uc_link_hover_cl-effect-10 a:hover::before,
+.uc_link_hover_cl-effect-10 a:focus::before {
+	-webkit-transform: translateX(0%);
+	-moz-transform: translateX(0%);
+	transform: translateX(0%);
+}

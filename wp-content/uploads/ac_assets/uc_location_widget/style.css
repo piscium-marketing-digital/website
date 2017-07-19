@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_location_widget{ overflow: hidden;font-family: 'Lato', serif;}
+.uc_location_widget .uc_location_widget_containt .uc_location_pic{ width:100%; position:relative;}
+.uc_location_widget .uc_location_widget_containt .uc_location_pic img{ width:100%; display:block;}
+
+
+.uc_location_widget .uc_location_widget_containt .uc_location_text{ padding:1% 10%;}
+.uc_location_widget .uc_location_widget_containt .uc_location_text h2{ font-size:18px; color:#ffffff;margin: 15px 0 9px;}
+.uc_location_widget .uc_location_widget_containt .uc_location_text p{ font-size:12px; color:#f3877a; text-transform:uppercase; margin:0 0 15px;}
+
+
+
+
+

@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_box_counter * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.uc_box_counter .uc_box_counter_col{ width:100%; text-align: center; clear:both; overflow:hidden;}
+
+.uc_box_counter .uc_box_counter_col .uc_counter_box{
+	float:left;
+	width: 23%; 
+	margin: 0 1%;
+	position:relative;
+	border: 1px solid #ececec;
+	padding:55px 0 70px 0;
+}
+.uc_box_counter .uc_box_counter_col .uc_counter_box i{
+	display:block;
+	font-size:25px;
+	line-height:31px;
+	font-family: "FontAwesome";
+	color:#b2b5be;
+}
+.uc_box_counter .uc_box_counter_col .uc_counter_box h2{
+	font-size:70px;
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	color:#22242a;
+}
+.uc_box_counter .uc_box_counter_col .uc_counter_box span{
+	line-height: 31px; 
+	font-size:15px;
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	display:inline-block;
+	text-transform:uppercase;
+	color:#b2b5be;
+	letter-spacing: 1px;
+}
+
+@media screen and (max-width: 850px) {
+	.uc_box_counter .uc_box_counter_col .uc_counter_box h2{ font-size:58px;}
+}
+
+@media screen and (max-width: 639px) {
+	.uc_box_counter .uc_box_counter_col .uc_counter_box h2{ font-size:46px;}
+	.uc_box_counter .uc_box_counter_col .uc_counter_box span{ font-size:13px;}
+	.uc_box_counter .uc_box_counter_col .uc_counter_box i{ font-size:22px;}
+}
+@media screen and (max-width: 414px) {
+	.uc_box_counter .uc_box_counter_col .uc_counter_box h2{ font-size:30px;}
+	.uc_box_counter .uc_box_counter_col .uc_counter_box span{ font-size:12px;}
+	.uc_box_counter .uc_box_counter_col .uc_counter_box i{ font-size:20px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

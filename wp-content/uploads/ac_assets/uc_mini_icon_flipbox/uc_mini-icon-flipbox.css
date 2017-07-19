@@ -1,0 +1,75 @@
+
+.uc_mini-icon-flipbox {
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-ms-perspective: 1000;
+	perspective: 1000;
+}
+/* START: Accommodating for IE */
+.uc_mini-icon-flipbox.hover .uc_flipper {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+}
+
+
+	
+/* END: Accommodating for IE */
+
+.uc_flipper {
+	transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    
+	transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    
+	position: relative;
+}
+.uc_front, .uc_back {
+	backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.uc_front {
+	z-index: 2;
+	transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+}
+.uc_back {
+	transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+}
+		
+.uc_mini-icon-flipbox, .uc_mini-icon-flipbox .uc_front, .uc_mini-icon-flipbox .uc_back {  width: 100%;  height: 354px;}		
+		/*=========================
+ front pane inner======================= */
+.uc_mini-icon-flipbox .uc_front .uc_front_inner{ text-align: center; display:flex;height: 354px;width:100%;align-items: center;justify-content: center;flex-direction: column;}
+.uc_mini-icon-flipbox .uc_front .uc_front_inner .uc_front_inner-box{  }
+.uc_mini-icon-flipbox  .uc_front .uc_front_inner .uc_front_inner-box p { margin:0 0 15px;}
+.uc_mini-icon-flipbox  .uc_front .uc_front_inner .uc_front_inner-box p .fa{ color:#f97352; font-size:33px; text-align:center;margin: 10px 0 10px;}
+.uc_mini-icon-flipbox  .uc_front .uc_front_inner .uc_front_inner-box h2{font-family: 'Playfair Display', serif; font-size:22px; color:#ffffff; text-transform:uppercase; font-weight:normal; display:inline-block;}
+
+
+		/*=========================
+ Back pane inner======================= */
+
+.uc_mini-icon-flipbox .uc_back .uc_front_inner{ text-align: center; display:flex; height: 354px;width:100%;align-items: center;justify-content: center;flex-direction: column;}
+.uc_mini-icon-flipbox .uc_back .uc_front_inner p { font-family: 'Raleway', sans-serif;margin:30px 0px; line-height:28px; color:#ffffff; display:block;padding:0 20px;}
+.uc_mini-icon-flipbox .uc_back .uc_front_inner h2{font-family: 'Playfair Display', serif; font-size:22px; color:#ffffff; text-transform:uppercase; font-weight:bold; display:block; margin:45px 0 0;width:100%;padding:0 20px;}
+.uc_mini-icon-flipbox .uc_back .uc_front_inner a{ padding:10px 15px;font-family: 'Raleway', sans-serif; margin:12px 0 0; text-decoration:none; display:inline-block; font-size:14px; font-weight:600;  }
+

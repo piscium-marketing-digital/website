@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+.uc_mega-icon-flipbox {
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-ms-perspective: 1000;
+	perspective: 1000;		
+		
+}
+/* START: Accommodating for IE */
+.uc_mega-icon-flipbox.hover .uc_flipper{
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+}
+
+		
+		/* END: Accommodating for IE */
+.uc_flipper {
+	transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    
+	transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    
+	position: relative;
+}
+.uc_front, .uc_back {
+	backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.uc_front {
+	z-index: 2;
+	transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+}
+.uc_back {
+	transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+}
+		
+.uc_mega-icon-flipbox, .uc_mega-icon-flipbox .uc_front, .uc_mega-icon-flipbox .uc_back {  width: 100%; height: 370px;text-align: center;}	
+
+
+	
+		/*=========================
+ front pane inner======================= */
+.uc_mega-icon-flipbox .uc_front .uc_front_inner .uc_front_inner-box{ width:100%; margin: 40% 0 0;}
+.uc_mega-icon-flipbox  .uc_front .uc_front_inner p { margin:0 0 15px;}
+.uc_mega-icon-flipbox  .uc_front .uc_front_inner p .fa-soundcloud{ font-size:90px; text-align:center;margin: 10px 0 10px; line-height:55px; margin:0px;}
+.uc_mega-icon-flipbox  .uc_front .uc_front_inner h2{font-family: 'Rajdhani', sans-serif; font-size:30px; color:#ffffff; text-transform:uppercase; font-weight:600; display:inline-block; margin:0px;}
+
+		/*=========================
+ Back pane inner======================= */
+
+
+.uc_mega-icon-flipbox .uc_back .uc_front_inner .uc_front_inner-box{position:absolute; width:100%; left:0; top:50%; transform:translatey(-50%); text-align:center;}
+.uc_mega-icon-flipbox .uc_back .uc_front_inner p {font-family: 'Ropa Sans', sans-serif; margin: 30px 30px 20px; line-height:30px; color:#ffffff; font-size:16px;}
+.uc_mega-icon-flipbox .uc_back .uc_front_inner a{ padding:10px 25px;font-family: 'Rajdhani', sans-serif; margin:12px 0 0; text-decoration:none; display:inline-block; font-size:16px; font-weight:600; text-transform:uppercase; }

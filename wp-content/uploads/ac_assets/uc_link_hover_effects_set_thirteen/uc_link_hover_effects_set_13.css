@@ -1,0 +1,71 @@
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.uc_link_hover_effects_set_13 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.uc_link_hover_effects_set_13 nav a {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	display: inline-block;
+	margin: 15px 25px;
+	outline: none;
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+.uc_link_hover_effects_set_13 nav a:hover,
+.uc_link_hover_effects_set_13 nav a:focus {
+	outline: none;
+}
+
+
+/* Effect 13: three circles */
+.uc_link_hover_cl-effect-13 a {
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.uc_link_hover_cl-effect-13 a::before {
+	position: absolute;
+	top: 150%;
+	left: 50%;
+	color: transparent;
+	content: "•";
+	text-shadow: 0 0 transparent;
+	font-size: 1.2em;
+	font-weight:700;
+	-webkit-transition: text-shadow 0.3s, color 0.3s;
+	-moz-transition: text-shadow 0.3s, color 0.3s;
+	transition: text-shadow 0.3s, color 0.3s;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+	pointer-events: none;
+
+}
+
+.uc_link_hover_cl-effect-13 a:hover::before,
+.uc_link_hover_cl-effect-13 a:focus::before {
+	color: #fff;
+	text-shadow: 10px 0 #fff, -10px 0 #fff;
+	display:block;
+}
+
+.uc_link_hover_cl-effect-13 a:hover,
+.uc_link_hover_cl-effect-13 a:focus {
+	color: #ba7700;
+}

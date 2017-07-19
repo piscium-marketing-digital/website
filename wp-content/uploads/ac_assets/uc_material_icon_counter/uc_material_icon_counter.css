@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uc_material_icon_counter * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.uc_material_icon_counter .uc_material_icon_counter_col{ width:100%; text-align: center; clear:both; overflow:hidden;}
+
+
+.uc_material_icon_counter .uc_material_icon_counter_col .uc_counter_box{
+	float:left;
+	width: 23%; 
+	margin: 0 1%;
+	position:relative;
+    font-family: 'Roboto', sans-serif;
+}
+.uc_material_icon_counter .uc_material_icon_counter_col .uc_counter_box .uc_counter_box_icons{
+    background:#fff;
+    padding:65px 0;
+}
+.uc_material_icon_counter .uc_material_icon_counter_col .uc_counter_box .uc_counter_box_icons i{
+	display:block;
+	font-size:50px;
+	line-height:31px;
+	font-family: "FontAwesome";
+}
+.uc_material_icon_counter .uc_material_icon_counter_col .uc_counter_box h2{
+	font-size:80px;
+	font-weight:700;
+    color:#fff;
+    margin:27px 0 13px;
+	line-height: 105px;
+}
+.uc_material_icon_counter .uc_material_icon_counter_col .uc_counter_box span{
+	line-height: 31px; 
+	font-size:18px;
+	font-weight:500;
+	display:inline-block;
+	text-transform:uppercase;
+    color:#fff;
+    margin-bottom:33px;
+}
+@media screen and (max-width: 767px) {
+	.uc_material_icon_counter .uc_material_icon_counter_col .uc_counter_box h2{ font-size:62px;}
+}
+
+@media screen and (max-width: 639px) {
+	.uc_material_icon_counter .uc_material_icon_counter_col .uc_counter_box h2{ font-size:40px; margin:15px 0 0;}
+	.uc_material_icon_counter .uc_material_icon_counter_col .uc_counter_box span{ font-size:13px; margin:0 0 20px 0;}
+    .uc_material_icon_counter .uc_material_icon_counter_col .uc_counter_box .uc_counter_box_icons{ padding:40px 0;}
+	.uc_material_icon_counter .uc_material_icon_counter_col .uc_counter_box .uc_counter_box_icons i{ font-size:28px;}
+}
+@media screen and (max-width: 414px) {
+	.uc_material_icon_counter .uc_material_icon_counter_col .uc_counter_box h2{ font-size:30px; margin:10px 0 0;}
+	.uc_material_icon_counter .uc_material_icon_counter_col .uc_counter_box span{ font-size:10px; margin:0 0 10px 0;}
+    .uc_material_icon_counter .uc_material_icon_counter_col .uc_counter_box .uc_counter_box_icons{ padding:20px 0;}
+	.uc_material_icon_counter .uc_material_icon_counter_col .uc_counter_box .uc_counter_box_icons i{ font-size:20px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

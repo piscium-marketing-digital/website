@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uc_effect_counter * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.uc_effect_counter .uc_effect_counter_col{ width:100%; text-align: center; clear:both; overflow:hidden; padding:50px 0;}
+
+
+.uc_effect_counter .uc_effect_counter_col .uc_counter_box{
+    background:#a38fee;
+	float:left;
+	width: 22%; 
+	margin: 0 1.5%;
+	position:relative;
+    font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+    padding:44px 0 34px;
+}
+.uc_effect_counter .uc_effect_counter_col .uc_counter_box i{
+	display:block;
+	font-size:45px;
+	line-height:31px;
+	font-family: "FontAwesome";
+    color:#fff;
+    margin-bottom:13px;
+}
+.uc_effect_counter .uc_effect_counter_col .uc_counter_box h2{
+	font-size:50px;
+	font-weight:400;
+    color:#fff;
+    letter-spacing:5px;
+}
+.uc_effect_counter .uc_effect_counter_col .uc_counter_box h2:before{
+    background: #d0c6f5;
+    top: -8px;
+    content: "";
+    height: 2px;
+    left: 5%;
+    position: absolute;
+    text-align: center;
+    height:8px;
+    width: 90%;
+}
+.uc_effect_counter .uc_effect_counter_col .uc_counter_box span{
+	font-size:16px;
+	font-weight:400;
+	display:inline-block;
+	text-transform:uppercase;
+    color:#fff;
+    font-weight:500;
+    letter-spacing:2px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .uc_effect_counter .uc_effect_counter_col .uc_counter_box i{ font-size:34px;}
+	.uc_effect_counter .uc_effect_counter_col .uc_counter_box h2{ font-size:40px;}
+}
+@media screen and (max-width: 639px) {
+    .uc_effect_counter .uc_effect_counter_col .uc_counter_box i{ font-size:28px;}
+	.uc_effect_counter .uc_effect_counter_col .uc_counter_box h2{ font-size:34px;}
+	.uc_effect_counter .uc_effect_counter_col .uc_counter_box span{ font-size:12px;}
+}
+@media screen and (max-width: 500px) {
+    .uc_effect_counter .uc_effect_counter_col .uc_counter_box i{ font-size:24px;}
+	.uc_effect_counter .uc_effect_counter_col .uc_counter_box h2{ font-size:27px;}
+}
+@media screen and (max-width: 413px) {
+    .uc_effect_counter .uc_effect_counter_col .uc_counter_box i{ font-size:22px;}
+	.uc_effect_counter .uc_effect_counter_col .uc_counter_box h2{ font-size:22px;}
+	.uc_effect_counter .uc_effect_counter_col .uc_counter_box span{ font-size:9px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uc_simple_counter * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.uc_simple_counter .uc_simple_counter_col{ width:100%; text-align: center; clear:both; overflow:hidden;}
+
+
+.uc_simple_counter .uc_simple_counter_col .uc_counter_box{
+	float:left;
+	width: 22%; 
+	margin: 0 1.5%;
+	position:relative;
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+	text-align:center;
+}
+.uc_simple_counter .uc_simple_counter_col .uc_counter_box h2{
+	font-size:40px;
+	font-weight:700;
+	color:#22242a;
+	line-height: 35px;
+}
+.uc_simple_counter .uc_simple_counter_col .uc_counter_box .uc_border{
+	width:50px;
+	height:2px;
+	background: #22242a;
+	display:inline-block;
+	margin:12px 0 5px;
+}
+.uc_simple_counter .uc_simple_counter_col .uc_counter_box span{
+	line-height: 31px; 
+	font-size:18px;
+	font-weight:500;
+	display:block;
+	text-transform:uppercase;
+	color:#22242a;
+	margin-bottom:15px;
+	letter-spacing:1px;
+}
+.uc_simple_counter .uc_simple_counter_col .uc_counter_box p{
+	color:#b7bbc7;
+	font-size:15px;
+	line-height:31px;
+}
+
+@media screen and (max-width: 993px){
+	.uc_simple_counter .uc_simple_counter_col .uc_counter_box span{ font-size:14px;}
+	.uc_simple_counter .uc_simple_counter_col .uc_counter_box p{ font-size:12px;}
+	.uc_simple_counter .uc_simple_counter_col .uc_counter_box p{ line-height:20px;}
+}
+@media screen and (max-width: 840px){
+	.uc_simple_counter .uc_simple_counter_col .uc_counter_box p{ line-height:20px;}
+}
+@media screen and (max-width: 789px){
+	.uc_simple_counter .uc_simple_counter_col .uc_counter_box p{ line-height:20px;}
+	.uc_simple_counter .uc_simple_counter_col .uc_counter_box span{ font-size:14px; letter-spacing: 0;}
+}
+@media screen and (max-width: 704px){
+	.uc_simple_counter .uc_simple_counter_col .uc_counter_box p{ line-height:20px;}
+	.uc_simple_counter .uc_simple_counter_col .uc_counter_box span{ font-size:12px; margin-bottom: 15px; line-height:normal;}
+}
+@media screen and (max-width: 439px){
+	.uc_simple_counter .uc_simple_counter_col .uc_counter_box h2{ font-size:27px; margin-bottom:20px;}
+	.uc_simple_counter .uc_simple_counter_col .uc_counter_box h2:after{ top:40px;}
+	.uc_simple_counter .uc_simple_counter_col .uc_counter_box p{ line-height:normal;}
+	.uc_simple_counter .uc_simple_counter_col .uc_counter_box span{ font-size:11px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+

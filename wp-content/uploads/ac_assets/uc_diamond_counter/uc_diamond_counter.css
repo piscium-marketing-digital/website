@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_diamond_counter * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.uc_diamond_counter .uc_diamond_counter_col{ width:100%; text-align: center; clear:both; overflow:hidden;}
+
+.uc_diamond_counter .uc_diamond_counter_col .uc_counter_box{
+	float:left;
+	width: 23%; 
+	margin: 0 1%;
+	position:relative;
+	color:#fff;
+}
+.uc_diamond_counter .uc_diamond_counter_col .uc_counter_box .uc_diamond-box{
+	position:relative;
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    transform:rotate(45deg);
+    
+    border:1px solid #ccc;
+	padding:35px;
+    height:150px;
+    width:150px;
+    margin:35px 0 45px;
+    display:inline-block;
+}
+.uc_diamond_counter .uc_diamond_counter_col .uc_counter_box i{
+	display:block;
+	font-size:50px;
+	font-family: "FontAwesome";
+    padding:15px;
+    
+	-webkit-text-fill-color: transparent;
+	-o-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+    
+    -moz-transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+}
+.uc_diamond_counter .uc_diamond_counter_col .uc_counter_box h2{
+	font-size:70px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+    margin-bottom:4px;
+}
+.uc_diamond_counter .uc_diamond_counter_col .uc_counter_box span{
+	line-height: 31px; 
+	font-size:15px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	display:inline-block;
+	text-transform:uppercase;
+    line-height:normal;
+}
+
+@media screen and (max-width: 910px) {
+    .uc_diamond_counter .uc_diamond_counter_col .uc_counter_box i{ font-size:40px; padding: 30px;}
+    .uc_diamond_counter .uc_diamond_counter_col .uc_counter_box .uc_diamond-box{ width:100px; height:100px; padding:0;}
+    .uc_diamond_counter .uc_diamond_counter_col .uc_counter_box h2{ font-size:40px;}
+}
+
+@media screen and (max-width: 639px) {
+	.uc_diamond_counter .uc_diamond_counter_col .uc_counter_box h2{ font-size:38px;}
+	.uc_diamond_counter .uc_diamond_counter_col .uc_counter_box span{ font-size:13px;}
+	.uc_diamond_counter .uc_diamond_counter_col .uc_counter_box i{ font-size:26px; padding:20px;}
+    .uc_diamond_counter .uc_diamond_counter_col .uc_counter_box .uc_diamond-box{ width:70px; height:70px; padding:0; margin:20px 0;}
+}
+@media screen and (max-width: 440px) {
+    .uc_diamond_counter .uc_diamond_counter_col .uc_counter_box .uc_diamond-box{ width:45px; height:45px; padding:0;}
+	.uc_diamond_counter .uc_diamond_counter_col .uc_counter_box h2{ font-size:25px;}
+    .uc_diamond_counter .uc_diamond_counter_col .uc_counter_box i { font-size: 20px; padding: 10px;}
+    .uc_diamond_counter .uc_diamond_counter_col .uc_counter_box span{ font-size:10px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

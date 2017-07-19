@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.clear {clear: both;overflow: hidden;}
+.uc_weather_widget{ overflow: hidden;font-family: 'Lato', sans-serif;}
+.uc_weather_widget .uc_weather_widget_containt .uc_weather_pic{ width:60%;float:left; background:#191a1c;}
+.uc_weather_widget .uc_weather_widget_containt .uc_weather_pic h2{ font-weight:300; font-size:60px; text-align:center; color:#ffffff;margin: 14px 0;}
+.uc_weather_widget .uc_weather_widget_containt .uc_weather_pic h3{ font-weight:300; font-size:25px; text-align:center; color:#ffffff; text-transform:uppercase; font-weight:bold;margin:0px 0 15px;}
+
+.uc_weather_widget .uc_weather_widget_containt .uc_weather_title .uc_weather_tittle_pic .fa{ font-size:50px; color:#666;}
+
+.uc_weather_widget .uc_weather_widget_containt .uc_weather_pic img{ width:100%; display:block;}
+.uc_weather_widget .uc_weather_widget_containt .uc_weather_title{width: 40%; float:left; }
+.uc_weather_widget .uc_weather_widget_containt .uc_weather_title .uc_weather_tittle_pic{ text-align:center; background:#f7f7f7;padding:24px 0px; }
+.uc_weather_widget .uc_weather_widget_containt .uc_weather_title .uc_weather_tittle span{ display:block;}
+
+
+
+.uc_weather_widget .uc_weather_widget_containt .uc_weather_title ul{ margin:0px; padding:0px;}
+.uc_weather_widget .uc_weather_widget_containt .uc_weather_title ul li{ list-style:none; padding:10px 0px; background:#1ab1ed; width:50%; float:left; text-align:center;}
+.uc_weather_widget .uc_weather_widget_containt .uc_weather_title ul li a{ color:#ffffff; text-decoration:none; text-align:center; display:block; font-size:12px; float:left;}
+.uc_weather_widget .uc_weather_widget_containt .uc_weather_title ul li .fa{ width:25px; display:block; width:50%; text-align:center; margin-top:10px;font-size:14px; color:#ffffff; float:left; text-align:center; font-size:14px;}
+.uc_weather_widget .uc_weather_widget_containt .uc_weather_title ul li a span{ display:block;}
+
+
+@media only screen and (max-width: 414px) {
+	.uc_weather_widget .uc_weather_widget_containt .uc_weather_pic{ width:100%;}
+	.uc_weather_widget .uc_weather_widget_containt .uc_weather_title{ width:100%;}
+
+}

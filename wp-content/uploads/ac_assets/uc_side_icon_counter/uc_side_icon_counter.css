@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uc_side_icon_counter * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.uc_side_icon_counter .uc_side_icon_counter_col{ width:100%; clear:both; overflow:hidden; text-align:center;}
+
+
+.uc_side_icon_counter .uc_side_icon_counter_col .uc_counter_box{
+	float:left;
+	width: 23%; 
+	margin: 0 1%;
+	position:relative;
+	color: #fff;
+	padding:20px 0;
+}
+.uc_side_icon_counter .uc_side_icon_counter_col .uc_counter_box i{
+	display:inline-block;
+	font-size:60px;
+	line-height:31px;
+	font-family: "FontAwesome";
+	color:#4c4d52;
+	margin:10px 30px 10px 0;
+}
+.uc_side_icon_counter .uc_side_icon_counter_col .uc_counter_box .uc_side_icon{
+	display:inline-block;
+}
+.uc_side_icon_counter .uc_side_icon_counter_col .uc_counter_box h2{
+	font-size:25px;
+	font-weight:400;
+	text-align:left;
+	line-height:18px;
+	font-family: 'Oswald', sans-serif;
+	margin-bottom:15px;
+}
+.uc_side_icon_counter .uc_side_icon_counter_col .uc_counter_box span{
+	font-size:15px;
+	font-weight:400;
+	display:inline-block;
+	text-transform:uppercase;
+	text-align:left;
+	font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 817px) {
+	.uc_side_icon_counter .uc_side_icon_counter_col .uc_counter_box i{ font-size:46px; margin:0px 10px 10px 0;}
+	.uc_side_icon_counter .uc_side_icon_counter_col .uc_counter_box h2{ margin-bottom:5px; font-size: 22px;}
+	.uc_side_icon_counter .uc_side_icon_counter_col .uc_counter_box span{ font-size:13px;}
+}
+@media screen and (max-width: 611px) {
+	.uc_side_icon_counter .uc_side_icon_counter_col .uc_counter_box{ text-align: center;}
+	.uc_side_icon_counter .uc_side_icon_counter_col .uc_counter_box .uc_side_icon{ display:block;}
+	.uc_side_icon_counter .uc_side_icon_counter_col .uc_counter_box i{ margin: 0 0 20px 0;}
+	.uc_side_icon_counter .uc_side_icon_counter_col .uc_counter_box h2{ text-align: center;}
+}
+@media screen and (max-width: 414px) {
+	.uc_side_icon_counter .uc_side_icon_counter_col .uc_counter_box i{ font-size:30px;}
+	.uc_side_icon_counter .uc_side_icon_counter_col .uc_counter_box span{ font-size:10px;}
+}
+@media screen and (max-width: 414px) {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+.uc_link_hover_effects_set_6 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   text-align:center;
+}
+
+.uc_link_hover_effects_set_6 nav a {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	display: inline-block;
+	margin: 0px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+.uc_link_hover_effects_set_6 nav a:hover,
+.uc_link_hover_effects_set_6 nav a:focus {
+	outline: none;
+}
+
+
+/* Effect 6: same word slide in and border bottom */
+.uc_link_hover_cl-effect-6 a {
+	margin: 0 10px;
+	padding: 10px 20px;
+}
+
+.uc_link_hover_cl-effect-6 a::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	content: '';
+	-webkit-transition: top 0.3s;
+	-moz-transition: top 0.3s;
+	transition: top 0.3s;
+}
+
+.uc_link_hover_cl-effect-6 a::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2px;
+	height: 2px;
+	background: #fff;
+	content: '';
+	-webkit-transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	transition: height 0.3s;
+}
+
+.uc_link_hover_cl-effect-6 a:hover::before {
+	top: 100%;
+	opacity: 1;
+}
+
+.uc_link_hover_cl-effect-6 a:hover::after {
+	height: 100%;
+} 
+

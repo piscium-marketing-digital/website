@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uc_super_simple_counter * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.uc_super_simple_counter .uc_super_simple_counter_col{ width:100%; text-align: center; clear:both; overflow:hidden; background:#22242a;}
+
+
+.uc_super_simple_counter .uc_super_simple_counter_col .uc_counter_box{
+	float:left;
+	width: 22%; 
+	margin: 0 1.5%;
+	position:relative;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	color:#fff;
+	padding:30px 0 40px;
+}
+.uc_super_simple_counter .uc_super_simple_counter_col .uc_counter_box{
+	border-right:1px solid #4e5055;
+}
+.uc_super_simple_counter .uc_super_simple_counter_col .uc_counter_box:last-child{
+	border:0px;
+}
+.uc_super_simple_counter .uc_super_simple_counter_col .uc_counter_box h2{
+	font-size:50px;
+	font-weight:700;
+	margin-bottom:5px;
+	line-height: 70px;
+}
+.uc_super_simple_counter .uc_super_simple_counter_col .uc_counter_box span{
+	font-size:16px;
+	font-weight:400;
+	display:inline-block;
+	text-transform:uppercase;
+	line-height: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+	.uc_super_simple_counter .uc_super_simple_counter_col .uc_counter_box h2{ font-size:40px;}
+}
+@media screen and (max-width: 639px) {
+	.uc_super_simple_counter .uc_super_simple_counter_col .uc_counter_box h2{ font-size:34px;}
+	.uc_super_simple_counter .uc_super_simple_counter_col .uc_counter_box span{ font-size:12px;}
+}
+@media screen and (max-width: 500px) {
+	.uc_super_simple_counter .uc_super_simple_counter_col .uc_counter_box h2{ font-size:27px;}
+	.uc_super_simple_counter .uc_super_simple_counter_col .uc_counter_box::after{ width:3px;}
+}
+@media screen and (max-width: 413px) {
+	.uc_super_simple_counter .uc_super_simple_counter_col .uc_counter_box h2{ font-size:22px;}
+	.uc_super_simple_counter .uc_super_simple_counter_col .uc_counter_box span{ font-size:9px;}
+	.uc_super_simple_counter .uc_super_simple_counter_col .uc_counter_box::after{ width:2px;}
+}
+
+
+

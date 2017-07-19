@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.clear {clear: both;overflow: hidden;}
+.uc_social_widget{ border-radius:7px; overflow: hidden;font-family: 'Lato', sans-serif; background:#ffffff;}
+.uc_social_widget .uc_social_widget_containt{ background:#f6f1ed; padding:15px;}
+.uc_social_widget .uc_social_widget_containt .uc_social_pic{ width:30%;border: 2px solid #ffffff; border-radius: 50%; overflow:hidden; float:left;}
+.uc_social_widget .uc_social_widget_containt .uc_social_pic img{ width:100%; display:block;}
+.uc_social_widget .uc_social_widget_containt .uc_social_title{ width:60%; float:left; padding:0px; position:relative; min-height:86px;}
+.uc_social_widget .uc_social_widget_containt .uc_social_title .uc_social_tittle{ position:absolute; left:20px; top:50%; transform: translateY(-50%); color:#675b51;}
+.uc_social_widget .uc_social_widget_containt .uc_social_title .uc_social_tittle span{ display:block;}
+
+.uc_social_widget ul{ margin:0px; padding:0px;}
+.uc_social_widget ul li{ list-style:none; padding:10px 0px; background:#ff642c; width:33.333%; float:left; text-align:center;}
+.uc_social_widget ul li a{ color:#ffffff; text-decoration:none; text-align:center; display:block; font-size:12px;}
+.uc_social_widget ul li a .fa{ width:25px; display:block; width:100%; text-align:center; margin-top:10px;font-size:14px;}
+
+
+

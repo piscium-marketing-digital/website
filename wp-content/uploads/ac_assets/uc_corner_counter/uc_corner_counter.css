@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_corner_counter * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.uc_corner_counter .uc_corner_counter_col{ width:100%; text-align: center; clear:both; overflow:hidden;}
+
+.uc_corner_counter .uc_corner_counter_col .uc_counter_box{
+	float:left;
+	width: 23%; 
+	margin: 0 1%;
+	position:relative;
+	border: 1px solid #ececec;
+	padding:43px 0 46px 0;
+}
+.uc_corner_counter .uc_corner_counter_col .uc_counter_box:before{
+	width:43px;
+	height:43px;
+	border-left:2px solid #22242a;
+	border-top:2px solid #22242a;
+	content:"";
+	position:absolute;
+	left:-1px;
+	top:-1px;
+}
+.uc_corner_counter .uc_corner_counter_col .uc_counter_box:after{
+	width:43px;
+	height:43px;
+	border-right:2px solid #22242a;
+	border-bottom:2px solid #22242a;
+	content:"";
+	position:absolute;
+	right:-1px;
+	bottom:-1px;
+}
+.uc_corner_counter .uc_corner_counter_col .uc_counter_box i{
+	display:block;
+	font-size:25px;
+	line-height:31px;
+	font-family: "FontAwesome";
+	color:#b2b5be;
+}
+.uc_corner_counter .uc_corner_counter_col .uc_counter_box h2{
+	font-size:70px;
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	color:#22242a;
+}
+.uc_corner_counter .uc_corner_counter_col .uc_counter_box span{
+	line-height: 31px; 
+	font-size:15px;
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	display:inline-block;
+	text-transform:uppercase;
+	color:#b2b5be;
+	letter-spacing: 1px;
+}
+
+@media screen and (max-width: 850px) {
+	.uc_corner_counter .uc_corner_counter_col .uc_counter_box h2{ font-size:52px;}
+}
+
+@media screen and (max-width: 639px) {
+	.uc_corner_counter .uc_corner_counter_col .uc_counter_box h2{ font-size:44px;}
+	.uc_corner_counter .uc_corner_counter_col .uc_counter_box span{ font-size:13px;}
+	.uc_corner_counter .uc_corner_counter_col .uc_counter_box i{ font-size:22px;}
+}
+@media screen and (max-width: 500px) {
+	.uc_corner_counter .uc_corner_counter_col .uc_counter_box h2{ font-size:38px;}
+	.uc_corner_counter .uc_corner_counter_col .uc_counter_box{ padding:25px 0;}
+}
+@media screen and (max-width: 414px) {
+	.uc_corner_counter .uc_corner_counter_col .uc_counter_box h2{ font-size:28px;}
+	.uc_corner_counter .uc_corner_counter_col .uc_counter_box span{ font-size:12px;}
+	.uc_corner_counter .uc_corner_counter_col .uc_counter_box i{ font-size:20px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
